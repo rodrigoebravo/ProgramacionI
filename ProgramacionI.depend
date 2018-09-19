@@ -1,11 +1,14 @@
 # depslib dependency file v1.0
-1537167629 source:c:\users\usuario\desktop\utn\apuntes\programacioni\proyectosprogramacioni\programacioni\main.c
+1537329408 source:c:\users\usuario\desktop\utn\apuntes\programacioni\proyectosprogramacioni\programacioni\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1537333999 source:c:\users\usuario\desktop\utn\apuntes\programacioni\proyectosprogramacioni\programacioni\utn.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 
-1537164498 source:c:\users\usuario\desktop\utn\apuntes\programacioni\proyectosprogramacioni\programacioni\utn.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
+1537329377 c:\users\usuario\desktop\utn\apuntes\programacioni\proyectosprogramacioni\programacioni\utn.h
 
