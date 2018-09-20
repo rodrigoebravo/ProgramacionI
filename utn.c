@@ -71,10 +71,11 @@ int utn_getDecimal(char* numeroBuffer, int intentos, int maximo, int minimo, cha
     }
     return retorno;
 }
+
 static int getString(char* pBuffer, int limite)
 {
     char bufferString[4096];
-    int retorno=-1;
+    int retorno=0;
 
     if(pBuffer!=NULL && limite>0)
     {
@@ -90,12 +91,35 @@ static int getString(char* pBuffer, int limite)
         if(strlen(bufferString)<=limite)
         {
             strncpy(pBuffer, bufferString, limite);
-            retorno=0;
+            retorno=1;
         }
     }
     return retorno;
 
 }
+
+int utn_getNombre(char* pNombreBuffer)
+{
+    int retorno=0;
+    if(getString(pNombreBuffer, sizeof(pNombreBuffer)))
+    {
+        retorno=1;
+    }
+    return retorno;
+}
+
+
+int utn_getString(char* pBuffer)
+{
+    int retorno=0;
+    if(getString(pBuffer, sizeof(*pBuffer)))
+    {
+        retorno=1;
+    }
+    return retorno;
+}
+
+
 static int esNumero(char* pCadena)
 {
     int retorno=0;
