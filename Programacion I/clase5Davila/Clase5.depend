@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1536190740 source:/home/alumno/Escritorio/Rodrigo/Clase5/Clase5/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1536186216 /home/alumno/Escritorio/Rodrigo/Clase5/Clase5/utn.h
+
+1536186216 source:/home/alumno/Escritorio/Rodrigo/Clase5/Clase5/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+

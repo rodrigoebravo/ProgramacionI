@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1536876157 source:/home/alumno/Escritorio/Bravo/ClaseErnesto/Clase8/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1536885237 source:/home/alumno/Escritorio/Bravo/ClaseErnesto/Clase8/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1536878516 /home/alumno/Escritorio/Bravo/ClaseErnesto/Clase8/utn.h
+

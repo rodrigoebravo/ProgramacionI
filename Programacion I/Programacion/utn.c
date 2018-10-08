@@ -9,6 +9,7 @@ int utn_getEntero(char* numeroBuffer, int intentos, int maximo, int minimo, char
 {
     int retorno=-1;
     int numero;
+    int numero5;
     if(numeroBuffer!=NULL && intentos>0 && maximo >= minimo && mensaje != NULL && mensajeError != NULL)
     {
         do{
